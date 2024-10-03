@@ -77,15 +77,32 @@ if (x === 5) {
 //   console.log("Number is negative");
 // }
 
-let score = prompt("Enter your marks");
-if (score >= 90) {
-  console.log("A");
-} else if (score >= 80 && score <= 89) {
-  console.log("B");
-} else if (score >= 70 && score <= 79) {
-  console.log("C");
-} else if (score >= 60 && score <= 69) {
-  console.log("D");
-} else {
-  console.log("fail");
+// let score = prompt("Enter your marks");
+// if (score >= 90) {
+//   console.log("A");
+// } else if (score >= 80 && score <= 89) {
+//   console.log("B");
+// } else if (score >= 70 && score <= 79) {
+//   console.log("C");
+// } else if (score >= 60 && score <= 69) {
+//   console.log("D");
+// } else {
+//   console.log("fail");
+// }
+//____________loops_____________/
+// for (let i = 0; i <= 9; i++) {
+//   console.log(i);
+// }
+//
+let emp = [
+  { name: "arun", email: "arun@gmail.com", age: 21 },
+  { name: "trun", email: "trun@gmail.com", age: 24 },
+  { name: "varun", email: "vrun@gmail.com", age: 25 },
+  { name: "neha", email: "neha@gmail.com", age: 30 },
+  { name: "hana", email: "hana@gmail.com", age: 50 },
+  { name: "hansh", email: "hansh@gmail.com", age: 27 },
+];
+console.log(emp);
+for (let i = 0; i < emp.lenght; i++) {
+  console.log(emp[i]);
 }
