@@ -24,3 +24,30 @@ car.price = 400000;
 car.capacity = 7;
 car.milage = "20 Kmpl";
 console.log(car);
+
+//__________If else statement_______________
+
+let age = 19;
+if (age > 18) {
+  console.log("You are eligible");
+} else console.log("you are not eligible");
+
+//__________Nested if else_________________
+
+let yourScore = 80;
+
+if (yourScore >= 90) {
+  console.log("Your grade is A+");
+} else if (yourScore >= 85) {
+  console.log("Your grade is A");
+} else if (yourScore >= 70) {
+  console.log("Your grade is B+");
+} else if (yourScore >= 55) {
+  console.log("Your grade is B");
+} else if (yourScore >= 40) {
+  console.log("Your grade is C");
+} else {
+  console.log("you failed");
+}
+
+//_______________________statement with conditionals____________
