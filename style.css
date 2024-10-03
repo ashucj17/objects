@@ -1,0 +1,13 @@
+.practice {
+  width: 500px;
+  margin: 40px auto;
+  padding: 40px;
+  text-align: center;
+  background-color: burlywood;
+  color: #2f0b0b;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  border: 1px solid #bcb0b0;
+  box-shadow: 10px 10px 5px #bcb0b0;
+  border-radius: 0px 100px 0px 0px;
+}
