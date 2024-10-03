@@ -27,10 +27,10 @@ console.log(car);
 
 //__________If else statement_______________
 
-let age = 19;
-if (age > 18) {
-  console.log("You are eligible");
-} else console.log("you are not eligible");
+// let age = 19;
+// if (age > 18) {
+//   console.log("You are eligible");
+// } else console.log("you are not eligible");
 
 //__________Nested if else_________________
 
@@ -51,3 +51,41 @@ if (yourScore >= 90) {
 }
 
 //_______________________statement with conditionals____________
+// let age = 19;
+// let indian = true;
+// if (age >= 18 && indian) {
+//   console.log("person is indian, can vote");
+// } else {
+//   console.log("cannot vote");
+// }
+
+let x = "5";
+if (x == 5) {
+  console.log("loose equality :true");
+}
+if (x === 5) {
+  console.log("strict equality :true");
+}
+
+//_________Conditionals assignment_____//
+// let num = prompt("enter number");
+// if (num > 0) {
+//   console.log("Number is positive");
+// } else if (num == 0) {
+//   console.log("Number is zero");
+// } else if (num < 0) {
+//   console.log("Number is negative");
+// }
+
+let score = prompt("Enter your marks");
+if (score >= 90) {
+  console.log("A");
+} else if (score >= 80 && score <= 89) {
+  console.log("B");
+} else if (score >= 70 && score <= 79) {
+  console.log("C");
+} else if (score >= 60 && score <= 69) {
+  console.log("D");
+} else {
+  console.log("fail");
+}
