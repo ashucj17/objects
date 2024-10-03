@@ -102,7 +102,15 @@ let emp = [
   { name: "hana", email: "hana@gmail.com", age: 50 },
   { name: "hansh", email: "hansh@gmail.com", age: 27 },
 ];
-console.log(emp);
-for (let i = 0; i < emp.lenght; i++) {
-  console.log(emp[i]);
+// console.log(emp);
+// for (let i = 0; i < emp.length; i++) {
+// console.log(emp[i].name);
+// }
+// for (let i = 0; i < emp.length; i++) {
+// console.log(emp[i].age);
+// }
+for (let i = 0; i < emp.length; i++) {
+  if (emp[i].age >= 18) {
+    console.log(emp[i].name);
+  }
 }
