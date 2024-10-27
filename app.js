@@ -115,10 +115,61 @@
 //   }
 // }
 
-let car = {};
-car.type = "Toyota";
-car.model = "Fortuner";
-car.colot = "Balck";
-car.wheels = 4;
-console.log(typeof car);
-console.log(car);
+// let car = {};
+// car.type = "Toyota";
+// car.model = "Fortuner";
+// car.colot = "Balck";
+// car.wheels = 4;
+// console.log(typeof car);
+// console.log(car);
+// const mySym = Symbol("keyl");
+// let user_details = {
+//   name: "ashish",
+//   email: "ashu@gmail.com",
+//   age: 21,
+//   [mySym]: "myKey1",
+//   city: "Kanpur",
+//   State: "Uttar Pradesh",
+//   Country: "India",
+// };
+// console.log(user_details.name); /* Famous Method */
+// console.log(user_details["name"]); /* alternate method */
+// console.log(user_details[mySym]);
+// console.log(user_details);
+
+// user_details.email = "ashu@galghar.com";
+// Object.freeze(user_details);
+// user_details.name = "Ashu";
+// console.log(user_details);
+
+// user_details.greatings = function (user) {
+//   console.log(`Hello, ${user}`);
+// };
+// console.log(user_details.greatings("ashu"));
+
+// let obj1 = { a: 1, b: 2, c: 3 };
+// let obj2 = { d: 4, e: 5, f: 6 };
+// let obj3 = { h: 7, g: 8, i: 9 };
+//
+// let newObj = {
+//   obj1,
+//   obj2,
+// }; /* here obj1 & obj2 is stored as an object of newObj */
+// console.log("newObj:", newObj);
+// let obj = Object.assign({}, obj1, obj2, obj3);
+// console.log("Object:", obj);
+//
+// console.log(user_details.hasOwnProperty(mySym));
+
+/* Object destructuring */
+
+let emp_details = {
+  username: "ak07",
+  password: "ashu@1234",
+  hobby: "cricket",
+  designation: "Lead",
+};
+
+let { designation } = emp_details;
+console.log(designation);
+console.log(designation);
